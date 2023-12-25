@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My App</string>
+    <item name="editTextTitle" type="id"/>
+</resources>
