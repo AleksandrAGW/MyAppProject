@@ -48,4 +48,9 @@ public class Game {
     public void setPlatform(String platform) {
         this.platform = platform;
     }
+
+    @Override
+    public String toString() {
+        return title;
+    }
 }

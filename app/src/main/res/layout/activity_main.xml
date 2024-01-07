@@ -4,41 +4,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/editTextTitle"
+    <FrameLayout
+        android:id="@+id/fragment_container"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:hint="Title"/>
+        android:layout_height="match_parent" />
 
-    <EditText
-        android:id="@+id/editTextGenre"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/editTextTitle"
-        android:layout_marginTop="16dp"
-        android:hint="Genre"/>
-
-    <EditText
-        android:id="@+id/editTextPlatform"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/editTextGenre"
-        android:layout_marginTop="16dp"
-        android:hint="Platform"/>
-
-    <Button
-        android:id="@+id/buttonAddGame"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/editTextPlatform"
-        android:layout_marginTop="16dp"
-        android:text="Add Game"/>
-
-    <ListView
-        android:id="@+id/listViewGames"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/buttonAddGame"
-        android:layout_marginTop="16dp"/>
 </RelativeLayout>
